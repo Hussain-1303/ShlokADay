@@ -1,0 +1,30 @@
+:root{
+    --main-color: #132231;
+    --min-bg: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.geeta .verse{
+    font-family: quran;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--main-color);
+    font-size: 25px;
+}
+
+.geeta{
+    width: 50%;
+    max-height: 50vh;
+    overflow: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
