@@ -30,3 +30,4 @@ async function getVerse() {
 }
 
 getVerse();
+
