@@ -3,76 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ShlokADay - Daily shlokas from the Bhagavad Gita with translations, pronunciation, and meanings.">
-    
     <title>ShlokADay</title>
-    
-    <!-- Google Fonts for Typography -->
-    <!-- Added Google Fonts for a professional and readable look, using Merriweather for titles and Roboto for body text -->
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
-    <!-- Link to external CSS for styling the page -->
     <link rel="stylesheet" href="style/style.css">
-
-    <!-- External JS Modules -->
-    <!-- Added JS files for different functionalities of the app, each script handles a different task -->
-    <script type="module" src="script/script.js" defer></script>
-    <script type="module" src="script/translation.js" defer></script> <!-- Handles the translation of the Shloka -->
-    <script type="module" src="script/greeting.js" defer></script> <!-- Displays a greeting message with the user's name -->
-    <script type="module" src="script/chapterVerse.js" defer></script> <!-- Displays the chapter and verse number -->
-    <script type="module" src="script/pronunciation.js" defer></script> <!-- Provides pronunciation of the Shloka -->
-    <script type="module" src="script/dateTime.js" defer></script> <!-- Shows the current date and time -->
-    <script type="module" src="script/meaning.js" defer></script> <!-- Shows the full meaning of the Shloka -->
-
-    <!-- Meta for Responsive Layout -->
-    <!-- Ensures the app is mobile-friendly and responsive to different screen sizes -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="module" src="script/script.js"></script>
 </head>
 <body>
-    <header class="main-header">
-        <div class="container">
-            <h1>ShlokADay</h1> <!-- Main title of the app -->
-            <p>Your daily dose of wisdom from the Bhagavad Gita</p> <!-- Description of the app -->
-        </div>
-    </header>
+    <div class="date">
+        <div class="time"></div>
+        <div class="current-date"></div>
+        <div class="hello">Good</div> Hussain
+    </div>
 
-    <main class="content container">
-        <!-- Greeting Section -->
-        <!-- Displays a personalized greeting message to the user -->
-        <div class="greeting"></div>
+    <div class="seprate"></div>
 
-        <!-- Shloka Display Section -->
-        <section class="shloka-section">
-            <h2 class="section-title">Shloka of the Day</h2> <!-- Title for the section -->
-            <div class="shloka-content">
-                <div class="verse"></div> <!-- Container for displaying the verse fetched from the API -->
-                <div class="chapter-verse"></div> <!-- Container for displaying the chapter and verse number -->
-            </div>
-        </section>
-
-        <!-- Translation Section -->
-        <section class="translation-section">
-            <h2 class="section-title">Translation</h2> <!-- Title for the section -->
-            <div class="translation"></div> <!-- Container for displaying the translation of the verse -->
-        </section>
-
-        <!-- Pronunciation Section -->
-        <section class="pronunciation-section">
-            <h2 class="section-title">Pronunciation</h2> <!-- Title for the section -->
-            <div class="pronunciation"></div> <!-- Container for providing the pronunciation of the verse -->
-        </section>
-
-        <!-- Meaning Section -->
-        <section class="meaning-section">
-            <h2 class="section-title">Meaning</h2> <!-- Title for the section -->
-            <div class="meaning"></div> <!-- Container for displaying the full meaning of the verse -->
-        </section>
-
-        <!-- Date and Time Section -->
-        <!-- Displays the current local date and time in the footer -->
-        <footer class="footer">
-            <div class="date-time"></div>
-        </footer>
-    </main>
+    <div class="geeta">
+        <div class="verse"></div>
+        <div class="translation"></div>
+    </div>
 </body>
 </html>
