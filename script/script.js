@@ -29,5 +29,9 @@ async function getVerse() {
     verse.appendChild(textVerse);
 }
 
+<<<<<<< HEAD
 getVerse();
 
+=======
+getVerse();
+>>>>>>> parent of d2d73bf (Added Greetings, Date and Time)
